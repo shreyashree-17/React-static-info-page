@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    font-family:Inter;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  background-color: #282D35;
+  height: 900px;
+}
+
+.nav{
+  display:flex;
+  align-items: center;
+  background-color: rgb(0, 1, 6);
+  justify-content: space-between;
+  box-shadow: 2px 1px 7px black;
+  color: white;
+  height: 90px;
+}
+
+
+.right-top{
+  color: rgb(124, 199, 227);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  font-size: large;
+  font-weight: 700px;
+}
+
+
+.left-top{
+  padding-right: 30px;
+  font-weight: 400px;
+  
+}
+
+.img-logo{
+  padding: 10px;
+  width: 80px;
+}
+
+.body{
+  height:100%;
+  color: rgb(246, 248, 249);
+  padding:40px;
+  box-sizing: border-box;
+  background-image: url(./components/photoo.png);
+  background-repeat: no-repeat;
+  background-position: right 50%;
+  background-size: 30%;
+  
+}
+
+.body> h1 {
+  font-size: 50px;
+}
+
+.body> ul {
+  font-size: 22px;
+  padding: 30px;
+}
+
+.body> ul> li{
+  padding: 10px;
+}
+
+.body> ul> li::marker{
+  font-size: 1.9rem;
+  color: rgb(124, 199, 227);
+}
