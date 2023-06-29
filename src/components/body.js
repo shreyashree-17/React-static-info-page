@@ -6,9 +6,9 @@
 //     )
 // }
 
-function Body(){
+function Body(props){
     return(
-        <div className="body">
+        <div className={props.darkMode ? "dark body" : "body"}>
             <h1>
                 Fun facts about React
             </h1>
