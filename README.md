@@ -1,10 +1,10 @@
-A static react app with the option to change between light mode and dark mode using useState
+## A static react app with the option to change between Light mode and Dark mode using useState
 
-# Getting Started with Create React App
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
