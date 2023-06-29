@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Header from './components/header';
 import Body from './components/body';
@@ -8,7 +9,7 @@ function App() {
         setDarkMode(prevmode=>!prevmode)
     }
   return (
-    <div className="container">
+    <div>
        <Header toggleDarkMode = {toggle} darkMode={darkMode}/>
         <Body darkMode={darkMode}/>
     </div>
